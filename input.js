@@ -1,12 +1,29 @@
+// Stores the active TCP connection object.
+let connection;
+
 const handleUserInput = function (key) {
   // \u0003 maps to ctrl+c input
   if (key === "\u0003") {
     process.exit();
   }
+  if (key === "w") {
+    connection.write("Move: up")
+  }
+  if (key === "a") {
+    connection.write("Move: left")
+  }
+  if (key === "s") {
+    connection.write("Move: down")
+  }
+  if (key === "d") {
+    connection.write("Move: right")
+  }                      
 };
 
 // setup interface to handle user input from stdin
-const setupInput = function () {
+const setupInput = function (conn) {
+  connection = conn;
+
   // gets a reference to the process.stdin object, which represents the standard input stream
   const stdin = process.stdin;
 
