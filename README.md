@@ -4,7 +4,7 @@ Snake game is a very popular video game. It is a video game concept where the pl
 
 This is simply a multiplayer take on the genre.
 
-Before you can run this client, you will need to be running the server side which you can download and install from [here](https://github.com/lighthouse-labs/snek-multiplayer). 
+Before you can run this client, you will need to be running the server side which you can clone from [here](https://github.com/lighthouse-labs/snek-multiplayer). 
 
 ## Final Product
 
@@ -18,7 +18,7 @@ https://user-images.githubusercontent.com/114256348/233805314-b06d9a7a-0c83-4ef7
 ## Getting Started
 
 - Follow steps inside the snek [server](https://github.com/lighthouse-labs/snek-multiplayer) repo to run the server side.
-- Download and install the [snake-client](https://github.com/NacarateJ/snake-client) repo.
+- Clone the [snake-client](https://github.com/NacarateJ/snake-client) repo.
 - Run the development snake-client using the `node play.js` command.
 - Press <kbd>Ctrl</kbd> + <kbd>c</kbd> to terminate the game.
 
