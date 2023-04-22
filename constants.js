@@ -1,12 +1,12 @@
 const IP = "localhost";
 const PORT = 50541;
 
-const NAME = "Name: JN"
+const NAME = "Name: JN";
 
-const MOVE_UP_KEY = "w"
-const MOVE_LEFT_KEY = "a"
-const MOVE_DOWN_KEY = "s"
-const MOVE_RIGHT_KEY = "d"
+const MOVE_UP_KEY = "w";
+const MOVE_LEFT_KEY = "a";
+const MOVE_DOWN_KEY = "s";
+const MOVE_RIGHT_KEY = "d";
 
 const MESSAGES = {
   g: "Say: Game over for you!",
