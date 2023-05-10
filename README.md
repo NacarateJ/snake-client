@@ -8,12 +8,11 @@ This is a simply multiplayer take on the genre designed to practice networking a
 
 * How to connect a client to a server using TCP,
 * How to create event handlers that respond to specific events such as data reception or connection establishment,
-* How to write modular and asynchronous code.
-
-Before you can run this client, you will need to be running the server side which you can clone from [here](https://github.com/lighthouse-labs/snek-multiplayer). 
+* How to write modular and asynchronous code. 
 
 ## Getting Started
 
+- Before you can run this client, you will need to be running the server side which you can clone from [here](https://github.com/lighthouse-labs/snek-multiplayer).
 - Follow steps inside the snek [server](https://github.com/lighthouse-labs/snek-multiplayer) repo to run the server side.
 - Clone the [snake-client](https://github.com/NacarateJ/snake-client) repo.
 - Run the development snake-client using the `node play.js` command.
